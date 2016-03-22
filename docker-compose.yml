@@ -1,0 +1,12 @@
+version: '2'
+services:
+  railgun:
+    build: ./container/
+    depends_on:
+      - memcached
+    links:
+      - memcached:railgun-memcache
+    ports:
+      - "2408:2408"
+  memcached:
+    image: memcached
