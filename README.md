@@ -1,5 +1,7 @@
 Docker container for CloudFlare Railgun
 -----
+[![Docker Stars](https://img.shields.io/docker/stars/trozz/railgun.svg)]()   [![Docker Pulls](https://img.shields.io/docker/pulls/trozz/railgun.svg)]() 
+[![ImageLayers Size](https://img.shields.io/imagelayers/image-size/trozz/railgun/latest.svg)]()   [![ImageLayers Layers](https://img.shields.io/imagelayers/layers/trozz/railgun/latest.svg)]()
 
 example docker-compose file
 ```
