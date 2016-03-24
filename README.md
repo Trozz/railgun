@@ -3,7 +3,12 @@ Docker container for CloudFlare Railgun
 [![Docker Stars](https://img.shields.io/docker/stars/trozz/railgun.svg)]()   [![Docker Pulls](https://img.shields.io/docker/pulls/trozz/railgun.svg)]() 
 [![ImageLayers Size](https://img.shields.io/imagelayers/image-size/trozz/railgun/latest.svg)]()   [![ImageLayers Layers](https://img.shields.io/imagelayers/layers/trozz/railgun/latest.svg)]()
 
-example docker-compose file
+You can also find this on [Docker Hub](https://hub.docker.com/r/trozz/railgun/).
+
+## Example
+
+An example `docker-compose.yml` configuration:
+
 ```
 version: '2'
 services:
@@ -27,5 +32,6 @@ services:
     image: memcached
 ```
 
+## License
 
-** To expand on Docs **
+BSD Licensed. See LICENSE file for details.
