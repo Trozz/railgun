@@ -1,7 +1,7 @@
 Docker container for CloudFlare Railgun
 -----
 
-example docker-compose
+example docker-compose file
 ```
 version: '2'
 services:
